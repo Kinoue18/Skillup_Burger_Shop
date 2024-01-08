@@ -10,7 +10,8 @@ const addToCartHandler = () => {
 };
 
 const Menu = () => (
- <MenuCard
+
+<MenuCard
     itemNum={1}
     burgerSrc={burger1}
     price={200}

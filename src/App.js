@@ -41,6 +41,9 @@ function App() {
         <Route path="/me" element={<Profile />} />
         <Route path="/orders" element={<MyOrders />} />
         <Route path="/order/:id" element={<OrderDetails />} />
+        <Route path="/myorders" element={<MyOrders />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/shipping" element={<Shipping />} />
       </Routes>
       <Footer />
     </Router>

@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Founder from "./Founder";
 import Menu from "./Menu";
+import bg from "../../assets/bg.jpg";
 
 const options = {
   initial: {
@@ -13,11 +14,11 @@ const options = {
     x: 0,
     opacity: 1,
   },
-}; // faltava aqui um "}"
+}; 
 
-// faltava definir o componente Home e fazer o export dele
 const Home = () => (
   <div>
+    <img src={bg} alt="bg" height={700} width={1000} />
     <Menu />
     <Founder />
   </div>
