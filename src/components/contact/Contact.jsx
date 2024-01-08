@@ -3,12 +3,14 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
 
-
+<h1>CONTACT US</h1>
 const SendButton = () => <button type="button">Send</button>;
 
 const Contact = () => (
   <Popup trigger={<SendButton />}>
-    <div>Popup content here!! </div>
+    <div>
+
+      Popup content here!! </div>
   </Popup>
 );
 
